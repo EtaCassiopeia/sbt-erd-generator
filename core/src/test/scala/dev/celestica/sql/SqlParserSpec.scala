@@ -3,13 +3,6 @@ package dev.celestica.sql
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 import fastparse._
-import fastparse.MultiLineWhitespace._
-import fastparse.Whitespace
-
-import com.facebook.presto.sql.tree._
-import com.facebook.presto.sql.parser._
-
-import net.sf.jsqlparser.parser._
 
 class SqlParserSpec extends AnyFlatSpec with Matchers {
 
